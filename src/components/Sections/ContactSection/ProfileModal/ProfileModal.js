@@ -8,7 +8,7 @@ const ProfileModal = ({ name, src, onClose }) => {
     return (
         <div className={styles.profileModal}>
             <IoCloseCircle onClick={onClose} size={50} />
-            <img src={src} alt={name} />
+            <img src={src ?? ""} alt={name ?? ""} />
         </div>
     )
 }

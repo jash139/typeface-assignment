@@ -41,7 +41,9 @@ function Header() {
     return (
         <>
             <div className={`${styles.header} card`}>
-                <ProfileImage src={userDetails?.profilePictureUrl} />
+                <div className={styles.profileButton} onClick={toggleModal}>
+                    <ProfileImage src={userDetails?.profilePictureUrl} />
+                </div>
                 <div className={styles.userDetails}><h3>{userDetails?.name}</h3><p className={styles.status}>Online</p></div>
                 <div className={styles.actionBtns}>
                     <OutlinedBtn text="Profile" onClick={toggleModal} />

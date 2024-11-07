@@ -29,3 +29,7 @@
     margin: 0 1rem;
     width: 2px;
 }
+
+.profileButton {
+    cursor: pointer;
+}
