@@ -1,52 +1,94 @@
 {
     "contactList": [
         {
-            "userId": "abcd",
+            "userId": "1",
             "name": "Ayush Acharya",
             "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "Create chat application assignment!",
+            "preview": "Create chat application for assignment.",
             "unreadCount": 2,
-            "timestamp": "11:11 AM"
+            "timestamp": "11:11 AM",
+            "pinned": true
         },
         {
-            "userId": "213",
+            "userId": "2",
             "name": "Colleague 1",
-            "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "Create chat application assignment!",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1536922645426-5d658ab49b81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "preview": "Just got a new Ferrari!",
             "unreadCount": 0,
-            "timestamp": "11:11 AM"
+            "timestamp": "11:11 AM",
+            "pinned": true
         },
         {
-            "userId": "ewrd",
-            "name": "Employee 2",
-            "profilePictureUrl": "",
-            "preview": "Create chat application assignment!",
-            "unreadCount": 0,
-            "timestamp": "11:11 AM"
+            "userId": "3",
+            "name": "Employee ",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1552622594-4df0b4182152?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "preview": "On the way to Tokyo.",
+            "unreadCount": 1,
+            "timestamp": "11:11 AM",
+            "pinned": false
         },
         {
-            "userId": "32m",
+            "userId": "4",
             "name": "Typeface user",
-            "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "Create chat application assignment!",
-            "unreadCount": 2,
-            "timestamp": "11:11 AM"
+            "profilePictureUrl": "https://images.unsplash.com/photo-1562693318-bbe9fe9d6f02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "preview": "Got late...",
+            "unreadCount": 0,
+            "timestamp": "11:11 AM",
+            "pinned": false
         },
         {
-            "userId": "12,n3",
+            "userId": "5",
             "name": "Dummy name",
             "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
             "preview": "Create chat application assignment!",
-            "unreadCount": 2,
-            "timestamp": "11:11 AM"
+            "unreadCount": 0,
+            "timestamp": "11:11 AM",
+            "pinned": true
         },
         {
-            "userId": "23n",
+            "userId": "6",
             "name": "Ran out of ideas",
             "profilePictureUrl": "",
             "preview": "Create chat application assignment!",
-            "unreadCount": 2,
-            "timestamp": "11:11 AM"
+            "unreadCount": 0,
+            "timestamp": "11:11 AM",
+            "pinned": false
+        },
+        {
+            "userId": "7",
+            "name": "Ran out of ideas",
+            "profilePictureUrl": "",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 0,
+            "timestamp": "11:11 AM",
+            "pinned": false
+        },
+        {
+            "userId": "8",
+            "name": "Ran out of ideas",
+            "profilePictureUrl": "",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 0,
+            "timestamp": "11:11 AM",
+            "pinned": false
+        },
+        {
+            "userId": "9",
+            "name": "Ran out of ideas",
+            "profilePictureUrl": "",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 0,
+            "timestamp": "11:11 AM",
+            "pinned": false
+        },
+        {
+            "userId": "10",
+            "name": "Ran out of ideas",
+            "profilePictureUrl": "",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 0,
+            "timestamp": "11:11 AM",
+            "pinned": false
         }
     ]
 }

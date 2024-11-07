@@ -15,11 +15,16 @@ const ContactList = () => {
         <div className={`${styles.contactList} card`}>
             <p className={styles.contactListSubheading}>Pinned</p>
             {
-                contactList.map(contact =>
+                contactList.filter(contact => contact.pinned).map(contact =>
                     <ContactCard key={contact.userId} contact={contact} />
                 )
             }
             <p className={styles.contactListSubheading}>All</p>
+            {
+                contactList.filter(contact => !contact.pinned).map(contact =>
+                    <ContactCard key={contact.userId} contact={contact} />
+                )
+            }
         </div>
     );
 }

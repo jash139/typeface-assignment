@@ -1,6 +1,11 @@
 .sidebar {
     flex: 0.5;
     border-radius: var(--card-border-radius);
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
 }
 
 .sidebar ul {

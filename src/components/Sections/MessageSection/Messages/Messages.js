@@ -13,6 +13,151 @@ function Messages({ currentUserDetails }) {
                     <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
                 )
             }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={true} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={true} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
+            {
+                messages.map(message =>
+                    <MessageBubble isPrimary={false} message={{ content: "df", timestamp: "11:11 AM" }} />
+                )
+            }
         </div>
     );
 }

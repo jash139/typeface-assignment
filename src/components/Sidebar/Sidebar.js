@@ -1,3 +1,4 @@
+import React from 'react'
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import ProfileButton from "../ProfileButton/ProfileButton";
@@ -8,22 +9,23 @@ import { MdDelete } from "react-icons/md";
 
 import styles from "./sidebar.module.css";
 
-function Sidebar() {
+
+const Sidebar = () => {
     return (
         <nav className={`${styles.sidebar} card`}>
             <Logo />
             <ul>
                 <li>
-                    <Link to="/"><FaHome size={35} color="#fd243e" ac /></Link>
+                    <Link to="/"><FaHome size={30} color="#fd243e" /></Link>
                 </li>
                 <li>
-                    <Link to="/chats"><IoIosChatboxes size={35} color="#fd243e" /></Link>
+                    <Link to="/chats"><IoIosChatboxes size={30} color="#fd243e" /></Link>
                 </li>
                 <li>
-                    <Link to="/channels"><MdGroups size={35} color="#fd243e" /></Link>
+                    <Link to="/channels"><MdGroups size={30} color="#fd243e" /></Link>
                 </li>
                 <li>
-                    <Link to="/recently-deleted"><MdDelete size={35} color="#fd243e" /></Link>
+                    <Link to="/recently-deleted"><MdDelete size={30} color="#fd243e" /></Link>
                 </li>
             </ul>
             <ProfileButton />
@@ -31,4 +33,5 @@ function Sidebar() {
     );
 }
 
-export default Sidebar;
+export default Sidebar
+

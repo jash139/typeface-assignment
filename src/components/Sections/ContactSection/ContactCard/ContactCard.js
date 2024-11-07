@@ -1,13 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 
 import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
 import UnreadBadge from "../../../commons/UnreadBadge/UnreadBadge";
+import { UserContext } from '../../../../routes/ChatsRoute';
+
 import styles from "./contactCard.module.css";
 
 const ContactCard = ({ contact }) => {
+    const user = useContext(UserContext);
+
     return (
         <>
-            <div className={styles.contactCard}>
+            <div className={`${styles.contactCard} ${user.activeChatUserId === contact.userId ? styles.selected : ""}`} onClick={() => user.setActiveChatUserId(contact.userId)}>
                 <div className="d-flex-center">
                     <ProfileImage src={contact.profilePictureUrl} />
                     <div className={styles.chatDetails}>

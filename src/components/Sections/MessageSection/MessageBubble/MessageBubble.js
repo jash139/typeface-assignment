@@ -1,7 +1,11 @@
+import React from 'react'
+
 import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
+
 import styles from "./messageBubble.module.css";
 
-function MessageBubble({ message = { content: "df", timestamp: "11:11 AM" }, isPrimary }) {
+
+const MessageBubble = ({ message = { content: "df", timestamp: "11:11 AM" }, isPrimary }) => {
     return (
         <div className={isPrimary ? styles.primaryContainer : styles.secondaryContainer}>
             {
@@ -15,4 +19,4 @@ function MessageBubble({ message = { content: "df", timestamp: "11:11 AM" }, isP
     );
 }
 
-export default MessageBubble;
+export default MessageBubble

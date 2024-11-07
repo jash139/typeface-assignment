@@ -1,8 +1,8 @@
 import styles from "./primaryBtn.module.css";
 
-function PrimaryBtn() {
+function PrimaryBtn({ text, onClick }) {
     return (
-        <button className={`btn ${styles.primaryBtn}`}>PrimaryBtn</button>
+        <button className={`btn ${styles.primaryBtn}`} onClick={onClick}>{text}</button>
     );
 }
 
