@@ -1,0 +1,30 @@
+.chatPreviewCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.chatPreviewCard:hover {
+    background-color: var(--bg-hover-grey);
+    cursor: pointer;
+}
+
+.profileImg {
+    object-fit: cover;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.chatDetails {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    background-color: var(--bg-hover-grey);
+    height: 1px;
+    width: calc(100% - 2rem);
+    margin: 0 auto;
+}

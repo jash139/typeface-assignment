@@ -1,13 +1,40 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import {
+  createBrowserRouter,
+  RouterProvider,
+} from "react-router-dom";
+import Root from './routes/root';
+import ErrorPage from './pages/ErrorPage';
+import ChatsRoute from './routes/ChatsRoute';
+import ChannelRoute from './routes/ChannelRoute';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <Root />,
+    errorElement: <ErrorPage />,
+    children: [
+      {
+        path: "/chats",
+        element: <ChatsRoute />
+      },
+      {
+        path: "/channels",
+        element: <ChannelRoute />
+      },
+    ]
+  },
+
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router} />
   </React.StrictMode>
 );
 

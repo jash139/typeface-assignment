@@ -1,0 +1,52 @@
+{
+    "chatPreviewList": [
+        {
+            "userId": "abcd",
+            "name": "Ayush Acharya",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 2,
+            "timestamp": "11:11 AM"
+        },
+        {
+            "userId": "213",
+            "name": "Colleague 1",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 0,
+            "timestamp": "11:11 AM"
+        },
+        {
+            "userId": "ewrd",
+            "name": "Employee 2",
+            "profilePictureUrl": "",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 0,
+            "timestamp": "11:11 AM"
+        },
+        {
+            "userId": "32m",
+            "name": "Typeface user",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 2,
+            "timestamp": "11:11 AM"
+        },
+        {
+            "userId": "12,n3",
+            "name": "Dummy name",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 2,
+            "timestamp": "11:11 AM"
+        },
+        {
+            "userId": "23n",
+            "name": "Ran out of ideas",
+            "profilePictureUrl": "",
+            "preview": "Create chat application assignment!",
+            "unreadCount": 2,
+            "timestamp": "11:11 AM"
+        }
+    ]
+}
