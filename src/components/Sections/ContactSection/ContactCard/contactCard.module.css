@@ -1,0 +1,44 @@
+.contactCard {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 2rem;
+}
+
+.contactCard:hover {
+    background-color: var(--bg-hover-grey);
+    cursor: pointer;
+}
+
+.chatDetails {
+    max-width: 175px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatUserName {
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+}
+
+.chatPreview {
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+}
+
+.chatPreview {
+    color: rgb(var(--98color-text-secondary));
+    font-size: 0.9rem;
+}
+
+.timestamp {
+    font-size: 0.8rem;
+}
+
+.divider {
+    background-color: var(--bg-hover-grey);
+    height: 1px;
+    width: calc(100% - 4rem);
+    margin: 0 auto;
+}

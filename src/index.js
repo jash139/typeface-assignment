@@ -11,6 +11,7 @@ import Root from './routes/root';
 import ErrorPage from './pages/ErrorPage';
 import ChatsRoute from './routes/ChatsRoute';
 import ChannelRoute from './routes/ChannelRoute';
+import ChatSvg from './components/ChatSvg/ChatSvg';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
     element: <Root />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: "/",
+        element: <ChatSvg />
+      },
       {
         path: "/chats",
         element: <ChatsRoute />

@@ -1,4 +1,6 @@
 .chatSvg {
+    flex: 5;
+    align-self: center;
     height: 350px;
     width: 400px;
 }

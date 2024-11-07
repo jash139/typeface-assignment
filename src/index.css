@@ -1,17 +1,23 @@
 :root {
   --bg-primary-white: #FFFFFF;
+  --bg-torch-red: 253 36 62;
+  --bg-grey: 220, 220, 220;
   --bg-hover-grey: rgb(240, 240, 240);
+  --btn-border-radius: 4rem;
+  --btn-padding: 1rem 1.5rem;
   --color-primary-black: 29 33 48;
   --color-primary-white: 255 255 255;
   --color-torch-red: 253 36 62;
+  --color-text-secondary: 180 180 180;
   --card-border-radius: 1.5rem;
-  --card-margin: 1rem;
+  --card-margin: 0.5rem;
   --card-padding: 1.25rem;
   --card-shadow: 0px 28.979px 19.171px 0px rgb(0 0 0 / 4%), 0px 15.047px 9.78px 0px rgb(0 0 0 / 4%), 0px 6.13px 4.904px 0px rgb(0 0 0 / 3%), 0px 1.393px 2.368px 0px rgb(0 0 0 / 2%);
 }
 
 * {
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -49,4 +55,12 @@ body {
   border-radius: var(--card-border-radius);
   box-shadow: var(--card-shadow);
   margin: var(--card-margin);
+}
+
+.btn {
+  background-color: unset;
+  border: none;
+  border-radius: var(--btn-border-radius);
+  outline: none;
+  padding: var(--btn-padding);
 }

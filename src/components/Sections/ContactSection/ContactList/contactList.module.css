@@ -1,0 +1,12 @@
+.contactList {
+    overflow-y: auto;
+    height: calc(100% - 90px - var(--card-margin) * 4);
+}
+
+.contactListSubheading {
+    color: rgb(var(--color-text-secondary));
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 1rem 2rem;
+    text-transform: uppercase;
+}

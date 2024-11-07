@@ -5,12 +5,12 @@ import styles from "./dashboard.module.css";
 
 function Dashboard() {
     return (
-        <>
-            <Sidebar />
-            <div className={styles.dashboardContent}>
+        <div className={`${styles.container} d-flex-center`}>
+            <div className={styles.content}>
+                <Sidebar />
                 <Outlet />
             </div>
-        </>
+        </div>
     );
 }
 

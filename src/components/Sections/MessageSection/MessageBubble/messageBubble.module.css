@@ -1,0 +1,33 @@
+.messageBubble {
+    background-color: rgb(var(--bg-torch-red));
+    border-radius: 2rem;
+    padding: 0.75rem 1rem;
+    width: fit-content;
+}
+
+.primaryMessage {
+    background-color: rgb(var(--bg-torch-red));
+    border-bottom-right-radius: 0;
+    margin-left: auto;
+    color: rgb(var(--color-primary-white));
+}
+
+.secondaryMessage {
+    background-color: rgb(var(--bg-grey));
+    border-bottom-left-radius: 0;
+}
+
+.secondaryContainer {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.primaryContainer {
+    padding: 0.5rem;
+}
+
+.timestamp {
+    opacity: 0.9;
+    font-size: 0.75rem;
+    margin-left: 0.5rem;
+}

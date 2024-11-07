@@ -1,7 +1,13 @@
-function Profile() {
+import ProfileImage from "../commons/ProfileImage/ProfileImage";
+
+import styles from "./profileButton.module.css"
+
+function ProfileButton() {
     return (
-        <h1>p</h1>
+        <div className={styles.profileBtn}>
+            <ProfileImage />
+        </div>
     );
 }
 
-export default Profile;
+export default ProfileButton;

@@ -1,0 +1,9 @@
+.contactSection {
+    flex: 3;
+}
+
+@media screen and (max-width: 1000px) {
+    .contactSection {
+        display: none;
+    }
+}

@@ -1,0 +1,28 @@
+.messageBox {
+    height: 65px;
+    width: 100%;
+    margin: 0.5rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.messageBox input {
+    border: 0;
+    font-size: 1rem;
+    outline: none;
+    height: 100%;
+    width: 100%;
+    padding: 0 1rem;
+    border-radius: 1rem;
+    box-shadow: var(--card-shadow);
+}
+
+.sendBtn {
+    border-radius: 1rem;
+    margin: 1rem;
+    margin-left: 0.5rem;
+    height: 65px;
+    width: 65px;
+}

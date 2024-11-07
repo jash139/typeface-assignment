@@ -1,0 +1,4 @@
+.primaryBtn {
+    background-color: rgb(var(--bg-torch-red));
+    color: rgb(var(--color-primary-white));
+}

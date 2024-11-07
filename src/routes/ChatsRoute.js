@@ -1,11 +1,17 @@
-import ChatPreviewList from "../components/ChatPreviewList/ChatPreviewList";
+import React from 'react'
+import ContactSection from '../components/Sections/ContactSection/ContactSection'
+import MessageSection from '../components/Sections/MessageSection/MessageSection'
 
-function ChatsRoute() {
+const ChatsRoute = () => {
     return (
         <>
-            <ChatPreviewList />
+            {/* <ChatPreviewHeader />
+        <ChatPreviewList />
+        <ActiveChat /> */}
+            <ContactSection />
+            <MessageSection />
         </>
-    );
+    )
 }
 
-export default ChatsRoute;
+export default ChatsRoute

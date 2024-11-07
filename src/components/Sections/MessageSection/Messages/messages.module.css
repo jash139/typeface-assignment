@@ -1,0 +1,4 @@
+.messages {
+    height: calc(100% - 155px - var(--card-margin) * 5);
+    padding: 1rem;
+}
