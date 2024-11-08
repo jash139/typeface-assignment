@@ -3,7 +3,6 @@
 }
 
 .content {
-    /* background-color: var(--bg-primary-white); */
     border-radius: var(--border-radius);
     height: 90%;
     width: 75%;

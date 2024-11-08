@@ -1,6 +1,6 @@
 .contactList {
     overflow-y: auto;
-    height: calc(100% - 90px - var(--card-margin) * 4);
+    height: calc(100% - 90px - var(--card-margin-y) * 4);
 }
 
 .contactListSubheading {

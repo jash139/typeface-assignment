@@ -6,12 +6,12 @@
 }
 
 .contactCard:hover {
-    background-color: var(--bg-hover-grey);
+    background-color: rgb(var(--bg-grey));
     cursor: pointer;
 }
 
 .selected {
-    background-color: var(--bg-hover-grey);
+    background-color: rgb(var(--bg-grey));
 }
 
 .chatDetails {
@@ -43,7 +43,7 @@
 }
 
 .divider {
-    background-color: var(--bg-hover-grey);
+    background-color: rgb(var(--bg-grey));
     height: 2px;
     width: calc(100% - 4rem);
     margin: 0 auto;

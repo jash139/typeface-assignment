@@ -1,4 +1,5 @@
 import React from "react";
+import "./index.css";
 import ReactDOM from "react-dom/client";
 import reportWebVitals from "./reportWebVitals";
 import {
@@ -10,8 +11,6 @@ import ErrorPage from "./pages/ErrorPage";
 import ChatsRoute from "./routes/ChatsRoute";
 import ChannelRoute from "./routes/ChannelRoute";
 import ChatSvg from "./components/ChatSvg/ChatSvg";
-
-import "./index.css";
 
 const router = createBrowserRouter([
   {

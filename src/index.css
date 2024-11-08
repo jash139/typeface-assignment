@@ -1,10 +1,10 @@
 /* Css variables
 Colors are in format of rgb */
 :root {
-  --bg-primary-white: #FFFFFF;
+  --bg-primary-white: 255, 255, 255;
   --bg-torch-red: 253 36 62;
-  --bg-grey: 220, 220, 220;
-  --bg-hover-grey: rgb(240, 240, 240);
+  --bg-grey: 240, 240, 240;
+  --bg-dark-grey: 210, 210, 210;
   --btn-border-radius: 4rem;
   --btn-padding: 0.75rem 1.5rem;
   --color-primary-black: 29 33 48;
@@ -12,7 +12,8 @@ Colors are in format of rgb */
   --color-torch-red: 253 36 62;
   --color-text-secondary: 180 180 180;
   --card-border-radius: 1.5rem;
-  --card-margin: 0.5rem;
+  --card-margin-y: 0.5rem;
+  --card-margin-x: 0.25rem;
   --card-padding: 1.25rem;
   --card-shadow: 0px 28.979px 19.171px 0px rgb(0 0 0 / 4%), 0px 15.047px 9.78px 0px rgb(0 0 0 / 4%), 0px 6.13px 4.904px 0px rgb(0 0 0 / 3%), 0px 1.393px 2.368px 0px rgb(0 0 0 / 2%);
 }
@@ -37,13 +38,12 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #f1f1f1;
   border-radius: 1rem;
   margin: 2rem 0;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #c4c4c4;
+  background: rgb(var(--bg-dark-grey));
   border-radius: 1rem;
 }
 
@@ -62,10 +62,10 @@ body {
 }
 
 .card {
-  background-color: var(--bg-primary-white);
+  background-color: rgb(var(--bg-primary-white));
   border-radius: var(--card-border-radius);
   box-shadow: var(--card-shadow);
-  margin: var(--card-margin);
+  margin: var(--card-margin-y) var(--card-margin-x);
 }
 
 .btn {
