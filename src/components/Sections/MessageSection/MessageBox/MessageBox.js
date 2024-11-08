@@ -18,7 +18,7 @@ const MessageBox = () => {
             senderId: userContext.currentUserData?.userId,
             receiverId: userContext.activeChatUserId,
             content: messageToSend,
-            timestamp: "12:33 AM"
+            timestamp: new Date().toLocaleTimeString(navigator.language, { hour: '2-digit', minute: '2-digit' })
         };
 
         // Post call to backend should be added here
