@@ -3,7 +3,7 @@ import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
 
 import styles from "./messageBubble.module.css";
 
-const MessageBubble = ({ message = { content: "df", timestamp: "11:11 AM" }, isPrimary }) => {
+const MessageBubble = ({ message, isPrimary, userContext }) => {
     return (
         <div className={isPrimary ? styles.primaryContainer : styles.secondaryContainer}>
             {

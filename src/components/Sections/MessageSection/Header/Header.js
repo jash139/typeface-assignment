@@ -29,7 +29,7 @@ const Header = () => {
     };
 
     const getActiveUserDetails = () => {
-        getResponse("getAllUserData.json").then(response => {
+        getResponse("dummyData/getAllUserData.json").then(response => {
             setUserDetails(response.data.userData[user.activeChatUserId])
         })
     }

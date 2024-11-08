@@ -8,7 +8,7 @@ const ContactList = () => {
     const [contactList, setContactList] = useState([]);
 
     useEffect(() => {
-        getResponse("contactList.json").then(response => setContactList(response.data.contactList))
+        getResponse("dummyData/contactList.json").then(response => setContactList(response.data.contactList))
     }, []);
 
     return (

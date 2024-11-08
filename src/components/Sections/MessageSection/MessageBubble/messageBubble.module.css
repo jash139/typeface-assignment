@@ -2,8 +2,11 @@
     background-color: rgb(var(--bg-torch-red));
     border-radius: 2rem;
     padding: 0.5rem 1rem;
+    max-width: 75%;
     width: fit-content;
     height: fit-content;
+    word-break: break-all;
+    position: relative;
 }
 
 .primaryMessage {
@@ -20,11 +23,13 @@
 
 .secondaryContainer {
     display: flex;
-    padding: 0.5rem;
+    padding: 0.25rem;
+    padding-bottom: 1rem;
 }
 
 .primaryContainer {
-    padding: 0.5rem;
+    padding: 0.25rem;
+    padding-bottom: 1rem;
 }
 
 .primaryContainer img,
@@ -34,7 +39,11 @@
 }
 
 .timestamp {
+    color: rgb(var(--color-primary-black));
+    position: absolute;
+    bottom: -1rem;
+    right: 0;
     opacity: 0.9;
-    font-size: 0.75rem;
+    font-size: 0.6rem;
     margin-left: 0.5rem;
 }

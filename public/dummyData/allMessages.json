@@ -1,0 +1,46 @@
+{
+    "messages": [
+        {
+            "id": "message1Id",
+            "senderId": "1",
+            "receiverId": "2",
+            "content": "Hello!",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "messagdfsfde1Id",
+            "senderId": "1",
+            "receiverId": "1",
+            "content": "Own message!",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "message2Id",
+            "senderId": "1",
+            "receiverId": "2",
+            "content": "How are you?",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "messagesfdId",
+            "senderId": "2",
+            "receiverId": "2",
+            "content": "How ars you?",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "messaId",
+            "senderId": "2",
+            "receiverId": "3",
+            "content": "How are you?",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "message3Id",
+            "senderId": "2",
+            "receiverId": "1",
+            "content": "Hey!",
+            "timestamp": "11:45 PM"
+        }
+    ]
+}
