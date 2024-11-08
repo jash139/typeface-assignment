@@ -1,5 +1,7 @@
 <h2 align="center">
-    <a href="">Add deployed website link</a>
+    <img src="./public/favicon.ico" alt="Logo" width="60" height="60" />
+    <br />
+    <a href="https://tf-chat.netlify.app">tf-chat.netlify.app</a>
 </h2>
 
 <div align="center">
@@ -37,3 +39,5 @@ Run build command with publish directory as `build`.
 # build command
 npm run build
 ```
+
+The demo [website](https://tf-chat.netlify.app) is deployed on Netlify.Refer [Deploy React App](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/) on how to deploy on netlify.
