@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react";
 import Header from './Header/Header';
 import ContactList from './ContactList/ContactList';
 import styles from "./contactSection.module.css";
@@ -12,4 +12,4 @@ const ContactSection = () => {
     )
 }
 
-export default ContactSection
+export default ContactSection;

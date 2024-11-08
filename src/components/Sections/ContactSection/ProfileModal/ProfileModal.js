@@ -1,8 +1,7 @@
-import React from 'react'
+import React from "react";
 import { IoCloseCircle } from "react-icons/io5";
 
 import styles from "./profileModal.module.css";
-
 
 const ProfileModal = ({ name, src, onClose }) => {
     return (
@@ -13,4 +12,4 @@ const ProfileModal = ({ name, src, onClose }) => {
     )
 }
 
-export default ProfileModal
+export default ProfileModal;

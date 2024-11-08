@@ -1,6 +1,8 @@
+import React from "react"
+
 import styles from "./primaryBtn.module.css";
 
-function PrimaryBtn({ text, onClick }) {
+const PrimaryBtn = ({ text, onClick }) => {
     return (
         <button className={`btn ${styles.primaryBtn}`} onClick={onClick}>{text}</button>
     );

@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
-import ContactSection from '../components/Sections/ContactSection/ContactSection'
-import MessageSection from '../components/Sections/MessageSection/MessageSection'
+import React, { useState } from "react";
+import ContactSection from "../components/Sections/ContactSection/ContactSection";
+import MessageSection from "../components/Sections/MessageSection/MessageSection";
 
 export const UserContext = React.createContext();
 
@@ -15,4 +15,4 @@ const ChatsRoute = () => {
     )
 }
 
-export default ChatsRoute
+export default ChatsRoute;

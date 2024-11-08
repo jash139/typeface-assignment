@@ -1,6 +1,8 @@
+import React from "react";
+
 import styles from "./unreadBadge.module.css";
 
-function UnreadBadge({ count }) {
+const UnreadBadge = ({ count }) => {
     return (
         <div className={`${styles.unreadBadge} d-flex-center`}>{count}</div>
     );

@@ -1,3 +1,5 @@
+/* Css variables
+Colors are in format of rgb */
 :root {
   --bg-primary-white: #FFFFFF;
   --bg-torch-red: 253 36 62;
@@ -20,11 +22,16 @@
   font-family: "Roboto", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #FFF1F3;
   margin: 0;
 }
 
+/* Scrollbar customization start */
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -43,6 +50,10 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: #9b9b9b;
 }
+
+/* Scrollbar customization end */
+
+/* Common styles */
 
 .d-flex-center {
   display: flex;

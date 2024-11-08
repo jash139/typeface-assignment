@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { RiSendPlaneFill } from "react-icons/ri";
 
-import styles from "./messageBox.module.css"
+import styles from "./messageBox.module.css";
 
 const MessageBox = () => {
     const [messageToSend, setMessageToSend] = useState("");

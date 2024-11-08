@@ -1,5 +1,4 @@
-import React, { useContext } from 'react'
-
+import React, { useContext } from "react";
 import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
 import UnreadBadge from "../../../commons/UnreadBadge/UnreadBadge";
 import { UserContext } from '../../../../routes/ChatsRoute';
@@ -32,4 +31,4 @@ const ContactCard = ({ contact }) => {
     );
 }
 
-export default ContactCard
+export default ContactCard;

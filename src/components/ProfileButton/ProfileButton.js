@@ -1,8 +1,10 @@
+import React from "react";
 import ProfileImage from "../commons/ProfileImage/ProfileImage";
 
-import styles from "./profileButton.module.css"
+import styles from "./profileButton.module.css";
 
-function ProfileButton() {
+
+const ProfileButton = () => {
     return (
         <div className={styles.profileBtn}>
             <ProfileImage />

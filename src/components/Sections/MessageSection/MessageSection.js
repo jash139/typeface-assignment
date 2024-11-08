@@ -1,9 +1,9 @@
-import React from 'react'
-import Header from './Header/Header';
-import Messages from './Messages/Messages';
+import React from "react";
+import Header from "./Header/Header";
+import Messages from "./Messages/Messages";
+import MessageBox from './MessageBox/MessageBox';
 
 import styles from "./messageSection.module.css";
-import MessageBox from './MessageBox/MessageBox';
 
 const MessageSection = () => {
     return (
@@ -15,4 +15,4 @@ const MessageSection = () => {
     )
 }
 
-export default MessageSection
+export default MessageSection;

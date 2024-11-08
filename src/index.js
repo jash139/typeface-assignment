@@ -1,17 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-
+import React from "react";
+import ReactDOM from "react-dom/client";
+import reportWebVitals from "./reportWebVitals";
 import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Root from './routes/root';
-import ErrorPage from './pages/ErrorPage';
-import ChatsRoute from './routes/ChatsRoute';
-import ChannelRoute from './routes/ChannelRoute';
-import ChatSvg from './components/ChatSvg/ChatSvg';
+import Root from "./routes/root";
+import ErrorPage from "./pages/ErrorPage";
+import ChatsRoute from "./routes/ChatsRoute";
+import ChannelRoute from "./routes/ChannelRoute";
+import ChatSvg from "./components/ChatSvg/ChatSvg";
+
+import "./index.css";
 
 const router = createBrowserRouter([
   {
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
 
 ]);
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <RouterProvider router={router} />

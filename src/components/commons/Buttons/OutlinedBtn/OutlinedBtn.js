@@ -1,6 +1,8 @@
+import React from "react"
+
 import styles from "./outlinedBtn.module.css";
 
-function OutlinedBtn({ text, onClick }) {
+const OutlinedBtn = ({ text, onClick }) => {
     return (
         <button className={`btn ${styles.outlinedBtn}`} onClick={onClick}>{text}</button>
     );

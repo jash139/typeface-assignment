@@ -1,14 +1,14 @@
-import { useContext, useEffect, useState } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import OutlinedBtn from "../../../commons/Buttons/OutlinedBtn/OutlinedBtn";
 import PrimaryBtn from "../../../commons/Buttons/PrimaryBtn/PrimaryBtn";
 import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
-import { UserContext } from "../../../../routes/ChatsRoute";
-
-import styles from "./header.module.css";
-import { getResponse } from "../../../../api/getResponse";
 import ProfileModal from "../../ContactSection/ProfileModal/ProfileModal";
 
-function Header() {
+import { UserContext } from "../../../../routes/ChatsRoute";
+import { getResponse } from "../../../../api/getResponse";
+import styles from "./header.module.css";
+
+const Header = () => {
     const [userDetails, setUserDetails] = useState({
         userId: "",
         name: "",

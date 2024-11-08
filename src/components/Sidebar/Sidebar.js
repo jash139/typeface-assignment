@@ -1,14 +1,12 @@
-import React from 'react'
+import React from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 import ProfileButton from "../ProfileButton/ProfileButton";
 import { FaHome } from "react-icons/fa";
 import { IoIosChatboxes } from "react-icons/io";
-import { MdGroups } from "react-icons/md";
-import { MdDelete } from "react-icons/md";
+import { MdGroups, MdDelete } from "react-icons/md";
 
 import styles from "./sidebar.module.css";
-
 
 const Sidebar = () => {
     return (
@@ -33,5 +31,4 @@ const Sidebar = () => {
     );
 }
 
-export default Sidebar
-
+export default Sidebar;

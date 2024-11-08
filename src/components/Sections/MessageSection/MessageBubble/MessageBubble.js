@@ -1,9 +1,7 @@
-import React from 'react'
-
+import React from "react";
 import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
 
 import styles from "./messageBubble.module.css";
-
 
 const MessageBubble = ({ message = { content: "df", timestamp: "11:11 AM" }, isPrimary }) => {
     return (
@@ -19,4 +17,4 @@ const MessageBubble = ({ message = { content: "df", timestamp: "11:11 AM" }, isP
     );
 }
 
-export default MessageBubble
+export default MessageBubble;
