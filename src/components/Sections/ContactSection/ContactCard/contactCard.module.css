@@ -21,30 +21,25 @@
     text-overflow: ellipsis;
 }
 
-.chatUserName {
-    font-size: 0.9rem;
-    margin: 0.25rem 0;
-}
-
+.chatUserName,
 .chatPreview {
-    font-size: 0.9rem;
+    font-size: var(--font-size-md);
     margin: 0.25rem 0;
 }
 
 .chatPreview {
     color: rgb(var(--color-text-secondary));
-    font-size: 0.9rem;
 }
 
 .timestamp {
-    font-size: 0.8rem;
+    font-size: var(--font-size-sm);
     margin: 0.25rem 0;
     white-space: nowrap;
 }
 
 .divider {
     background-color: rgb(var(--bg-grey));
-    height: 2px;
+    height: 1.5px;
     width: calc(100% - 4rem);
     margin: 0 auto;
 }
@@ -52,7 +47,7 @@
 .pinBtn {
     border-radius: 5rem;
     color: rgb(var(--color-torch-red));
-    margin-left: 1rem;
+    margin-left: 0.25rem;
     margin-right: -1rem;
     padding: 0.5rem;
 }

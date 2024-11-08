@@ -2,7 +2,8 @@
     background-color: rgb(var(--color-torch-red));
     border-radius: 20px;
     color: rgb(var(--color-primary-white));
+    font-size: var(--font-size-sm);
     margin-left: auto;
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
 }

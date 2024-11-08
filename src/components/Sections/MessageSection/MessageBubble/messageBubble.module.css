@@ -3,10 +3,12 @@
     border-radius: 2rem;
     padding: 0.5rem 1rem;
     max-width: 75%;
+    min-width: 65px;
     width: fit-content;
     height: fit-content;
     word-break: break-all;
     position: relative;
+    font-size: var(--font-size-md);
 }
 
 .primaryMessage {
@@ -23,12 +25,11 @@
 
 .secondaryContainer {
     display: flex;
-    padding: 0.25rem;
-    padding-bottom: 1rem;
 }
 
-.primaryContainer {
-    padding: 0.25rem;
+.primaryContainer,
+.secondaryContainer {
+    padding: 0.5rem;
     padding-bottom: 1rem;
 }
 
@@ -44,6 +45,6 @@
     bottom: -1rem;
     right: 0;
     opacity: 0.9;
-    font-size: 0.6rem;
+    font-size: var(--font-size-sm);
     margin-left: 0.5rem;
 }

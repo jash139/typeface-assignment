@@ -1,21 +1,28 @@
-/* Css variables
-Colors are in format of rgb */
+/* Css variables:
+Colors are in format of rgb/rgba
+Font sizes, paddings, etc are in rem */
 :root {
   --bg-primary-white: 255, 255, 255;
   --bg-torch-red: 253 36 62;
   --bg-grey: 240, 240, 240;
   --bg-dark-grey: 210, 210, 210;
+  --bg-disabled: 255, 255, 255, 0.8;
+  --bg-body: 255, 241, 243;
   --btn-border-radius: 4rem;
-  --btn-padding: 0.75rem 1.5rem;
+  --btn-padding: 0.5rem 1.25rem;
+  --bg-green: 50, 205, 50;
   --color-primary-black: 29 33 48;
   --color-primary-white: 255 255 255;
   --color-torch-red: 253 36 62;
   --color-text-secondary: 180 180 180;
-  --card-border-radius: 1.5rem;
+  --card-border-radius: 0.75rem;
   --card-margin-y: 0.5rem;
   --card-margin-x: 0.25rem;
   --card-padding: 1.25rem;
   --card-shadow: 0px 28.979px 19.171px 0px rgb(0 0 0 / 4%), 0px 15.047px 9.78px 0px rgb(0 0 0 / 4%), 0px 6.13px 4.904px 0px rgb(0 0 0 / 3%), 0px 1.393px 2.368px 0px rgb(0 0 0 / 2%);
+  --font-size-sm: 0.65rem;
+  --font-size-md: 0.8rem;
+  --font-size-lg: 1rem;
 }
 
 * {
@@ -28,7 +35,7 @@ html {
 }
 
 body {
-  background-color: #FFF1F3;
+  background-color: rgb(var(--bg-body));
   margin: 0;
 }
 
@@ -75,4 +82,5 @@ body {
   cursor: pointer;
   outline: none;
   padding: var(--btn-padding);
+  font-size: var(--font-size-md);
 }
