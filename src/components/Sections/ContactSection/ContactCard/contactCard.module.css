@@ -32,7 +32,7 @@
 }
 
 .chatPreview {
-    color: rgb(var(--98color-text-secondary));
+    color: rgb(var(--color-text-secondary));
     font-size: 0.9rem;
 }
 
@@ -47,4 +47,16 @@
     height: 2px;
     width: calc(100% - 4rem);
     margin: 0 auto;
+}
+
+.pinBtn {
+    border-radius: 5rem;
+    color: rgb(var(--color-torch-red));
+    margin-left: 1rem;
+    margin-right: -1rem;
+    padding: 0.5rem;
+}
+
+.pinBtn:hover {
+    background-color: rgb(var(--bg-dark-grey));
 }

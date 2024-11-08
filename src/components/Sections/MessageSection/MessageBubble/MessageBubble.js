@@ -13,6 +13,7 @@ const MessageBubble = ({ message, isPrimary, userContext }) => {
                 {message.content}
                 <span className={styles.timestamp}>{message.timestamp}</span>
             </div>
+
         </div>
     );
 }

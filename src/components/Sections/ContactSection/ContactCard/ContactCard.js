@@ -2,10 +2,11 @@ import React, { useContext } from "react";
 import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
 import UnreadBadge from "../../../commons/UnreadBadge/UnreadBadge";
 import { UserContext } from '../../../../routes/ChatsRoute';
+import { TbPinned, TbPinnedFilled } from "react-icons/tb";
 
 import styles from "./contactCard.module.css";
 
-const ContactCard = ({ contact }) => {
+const ContactCard = ({ contact, isPinned, togglePinnedStatus }) => {
     const user = useContext(UserContext);
 
     return (
@@ -18,12 +19,27 @@ const ContactCard = ({ contact }) => {
                         <p className={styles.chatPreview}>{contact.preview}</p>
                     </div>
                 </div>
-                <div>
-                    <p className={styles.timestamp}>{contact.timestamp}</p>
-                    {
-                        contact.unreadCount > 0 &&
-                        <UnreadBadge count={contact.unreadCount} />
-                    }
+                <div className="d-flex-center">
+                    <div>
+                        <p className={styles.timestamp}>{contact.timestamp}</p>
+                        {
+                            contact.unreadCount > 0 &&
+                            <UnreadBadge count={contact.unreadCount} />
+                        }
+                    </div>
+                    <div
+                        className={`${styles.pinBtn} d-flex-center`}
+                        onClick={(e) => {
+                            e.stopPropagation();
+                            togglePinnedStatus(contact.userId)
+                        }}>
+                        {
+                            isPinned ?
+                                <TbPinnedFilled size={25} />
+                                :
+                                <TbPinned size={25} />
+                        }
+                    </div>
                 </div>
             </div>
             <div className={styles.divider} />

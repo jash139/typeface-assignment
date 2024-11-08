@@ -10,3 +10,8 @@
     margin: 1rem 2rem;
     text-transform: uppercase;
 }
+
+.noContactsMsg {
+    color: rgb(var(--color-text-secondary));
+    text-align: center;
+}
