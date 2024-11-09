@@ -14,3 +14,16 @@
         width: 90%;
     }
 }
+
+@media screen and (max-width: 1000px) {
+    .content {
+        padding-top: 50px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        display: unset;
+    }
+}

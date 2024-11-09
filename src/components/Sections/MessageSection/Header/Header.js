@@ -6,6 +6,7 @@ import ProfileModal from "../../ContactSection/ProfileModal/ProfileModal";
 import { UserContext } from "../../../../routes/ChatsRoute";
 import { getResponse } from "../../../../api/getResponse";
 import styles from "./header.module.css";
+import ConfirmationModal from "../../../commons/ConfirmationModal/ConfirmationModal";
 
 const Header = () => {
     const userContext = useContext(UserContext);
@@ -15,22 +16,24 @@ const Header = () => {
         profilePictureUrl: ""
     });
     const [showProfileModal, setShowProfileModal] = useState(false);
+    const [showConfirmationModal, setShowConfirmationModal] = useState(false);
 
     const user = useContext(UserContext);
 
     const handleDeleteChat = () => {
-        if (window.confirm(`Are you sure you want to delete all chat with ${userDetails.name}?`) === false)
-            return;
-
-        // This alert should be displayed only after success of backend API
+        toggleConfirmationModal();
+        // Contact list should be updated only after success of backend API
         // keeping here as backend isn't implemented
-        alert(`Chats with ${userDetails.name} deleted and moved to deleted chats tab. (Feature coming soon!)`);
         userContext.setActiveChatUserId("");
         userContext.setContactList(userContext.contactList.filter(contact => contact.userId !== userDetails.userId))
     };
 
-    const toggleModal = () => {
+    const toggleProfileModal = () => {
         setShowProfileModal(!showProfileModal);
+    };
+
+    const toggleConfirmationModal = () => {
+        setShowConfirmationModal(!showConfirmationModal);
     };
 
     const getActiveChatUserDetails = () => {
@@ -46,17 +49,25 @@ const Header = () => {
     return (
         <>
             <div className={`${styles.header} card`}>
-                <div className={styles.profileButton} onClick={toggleModal}>
+                <div className={styles.profileButton} onClick={toggleProfileModal}>
                     <ProfileImage src={userDetails?.profilePictureUrl} />
                 </div>
                 <div className={styles.userDetails}><h3>{userDetails?.name}{userContext.currentUserData?.userId === userDetails.userId && " (You)"}</h3><p className={styles.status}>Online</p></div>
                 <div className={styles.actionBtns}>
-                    <OutlinedBtn text="View Profile" onClick={toggleModal} />
+                    <OutlinedBtn text="View Profile" onClick={toggleProfileModal} />
                     <div className={styles.separation} />
-                    <PrimaryBtn text="Delete chat" onClick={handleDeleteChat} />
+                    <PrimaryBtn text="Delete chat" onClick={toggleConfirmationModal} />
                 </div>
             </div>
-            {showProfileModal && <ProfileModal src={userDetails.profilePictureUrl} name={userDetails.name} onClose={toggleModal} />}
+            {showProfileModal && <ProfileModal src={userDetails.profilePictureUrl} name={userDetails.name} onClose={toggleProfileModal} />}
+            {
+                showConfirmationModal && <ConfirmationModal
+                    primaryText="Are you sure?"
+                    secondaryText={`You are about to delete all chats with ${userDetails.name}.`}
+                    onConfirm={handleDeleteChat}
+                    onClose={toggleConfirmationModal}
+                />
+            }
         </>
     );
 }

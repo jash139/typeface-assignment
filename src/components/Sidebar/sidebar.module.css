@@ -32,6 +32,22 @@
 
 @media screen and (max-width: 1000px) {
     .sidebar {
-        display: none;
+        flex: unset;
+        flex-direction: row;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 0.5rem 1rem;
+        height: 80px;
+        width: 100%;
+    }
+
+    .sidebar ul {
+        display: flex;
+        align-items: center;
+    }
+
+    .sidebar li {
+        padding: 0 0.75rem;
     }
 }
