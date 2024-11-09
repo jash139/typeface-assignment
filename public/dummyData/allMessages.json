@@ -1,45 +1,80 @@
 {
     "messages": [
         {
-            "id": "message1Id",
+            "id": "messageId1",
             "senderId": "1",
             "receiverId": "2",
             "content": "Hello!",
             "timestamp": "11:44 PM"
         },
         {
-            "id": "messagdfsfde1Id",
-            "senderId": "1",
-            "receiverId": "1",
-            "content": "Own message!",
-            "timestamp": "11:44 PM"
-        },
-        {
-            "id": "message2Id",
-            "senderId": "1",
-            "receiverId": "2",
-            "content": "How are you?",
-            "timestamp": "11:44 PM"
-        },
-        {
-            "id": "messagesfdId",
-            "senderId": "2",
-            "receiverId": "2",
-            "content": "How ars you?",
-            "timestamp": "11:44 PM"
-        },
-        {
-            "id": "messaId",
-            "senderId": "2",
-            "receiverId": "3",
-            "content": "How are you?",
-            "timestamp": "11:44 PM"
-        },
-        {
-            "id": "message3Id",
+            "id": "messageId2",
             "senderId": "2",
             "receiverId": "1",
             "content": "Hey!",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "messageId3",
+            "senderId": "1",
+            "receiverId": "1",
+            "content": "TODO: Submit chat application assignment.",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "messageId4",
+            "senderId": "1",
+            "receiverId": "2",
+            "content": "How are you?",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "messageId5",
+            "senderId": "2",
+            "receiverId": "1",
+            "content": "I am good.",
+            "timestamp": "11:44 PM"
+        },
+        {
+            "id": "messageId6",
+            "senderId": "2",
+            "receiverId": "1",
+            "content": "How about you?",
+            "timestamp": "11:45 PM"
+        },
+        {
+            "id": "messageId7",
+            "senderId": "1",
+            "receiverId": "2",
+            "content": "I am good as well.",
+            "timestamp": "11:45 PM"
+        },
+        {
+            "id": "messageId8",
+            "senderId": "1",
+            "receiverId": "2",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            "timestamp": "11:45 PM"
+        },
+        {
+            "id": "messageId9",
+            "senderId": "2",
+            "receiverId": "1",
+            "content": "I see.",
+            "timestamp": "11:45 PM"
+        },
+        {
+            "id": "messageId10",
+            "senderId": "1",
+            "receiverId": "3",
+            "content": "Hi there!",
+            "timestamp": "11:45 PM"
+        },
+        {
+            "id": "messageId11",
+            "senderId": "3",
+            "receiverId": "1",
+            "content": "Hello, how's it going?",
             "timestamp": "11:45 PM"
         }
     ]

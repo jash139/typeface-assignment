@@ -25,13 +25,16 @@ const Messages = () => {
     return (
         <div id="messages-section" className={`${styles.messages} card`}>
             {
-                filterMessagesForCurrentChat(userContext.messages).map(message =>
-                    <MessageBubble
-                        key={message.id}
-                        isPrimary={message.senderId === userContext.currentUserData?.userId}
-                        message={message}
-                    />
-                )
+                filterMessagesForCurrentChat(userContext.messages).length === 0 ?
+                    <h3 className={styles.startNewMsg}>Start a new conversation!</h3>
+                    :
+                    filterMessagesForCurrentChat(userContext.messages).map(message =>
+                        <MessageBubble
+                            key={message.id}
+                            isPrimary={message.senderId === userContext.currentUserData?.userId}
+                            message={message}
+                        />
+                    )
             }
         </div>
     );

@@ -4,19 +4,49 @@
             "userId": "1",
             "name": "Ayush Acharya",
             "profilePictureUrl": "https://images.unsplash.com/photo-1535382651921-5e77ea4458f2?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "status": "busy status"
+            "status": "Online"
         },
         "2": {
             "userId": "2",
-            "name": "Colleague 1",
+            "name": "User 2",
             "profilePictureUrl": "https://images.unsplash.com/photo-1536922645426-5d658ab49b81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "status": "busy status"
+            "status": "Busy right now"
         },
         "3": {
             "userId": "3",
-            "name": "Employee ",
+            "name": "User 3",
             "profilePictureUrl": "https://images.unsplash.com/photo-1552622594-4df0b4182152?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "status": "busy status"
+            "status": "Offline!"
+        },
+        "4": {
+            "userId": "4",
+            "name": "User 4",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1562693318-bbe9fe9d6f02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "status": "Urgent messages only..."
+        },
+        "5": {
+            "userId": "5",
+            "name": "User 5",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "status": "Busy"
+        },
+        "6": {
+            "userId": "6",
+            "name": "User 6",
+            "profilePictureUrl": "https://plus.unsplash.com/premium_photo-1719177518243-3ed5cd5433f7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "status": "Not using"
+        },
+        "7": {
+            "userId": "7",
+            "name": "User 7",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1518378188025-22bd89516ee2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "status": "Online"
+        },
+        "8": {
+            "userId": "8",
+            "name": "User 8",
+            "profilePictureUrl": "https://images.unsplash.com/photo-1518378188025-22bd89516ee2?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "status": "Call instead"
         }
     }
 }

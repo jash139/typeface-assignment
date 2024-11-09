@@ -3,3 +3,9 @@
     height: calc(100% - 120px - var(--card-margin-y) * 4);
     padding: 1rem;
 }
+
+.startNewMsg {
+    color: rgb(var(--color-torch-red));
+    margin-top: 35%;
+    text-align: center;
+}
