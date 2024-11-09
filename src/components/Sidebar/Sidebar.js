@@ -11,19 +11,21 @@ import styles from "./sidebar.module.css";
 const Sidebar = () => {
     return (
         <nav className={`${styles.sidebar} card`}>
-            <Logo />
+            <Link to="/">
+                <Logo />
+            </Link>
             <ul>
                 <li>
-                    <Link to="/"><FaHome size={30} color="#fd243e" /></Link>
+                    <Link to="/"><div className={`${styles.iconBtn} d-flex-center`}><FaHome size={30} color="#fd243e" /></div></Link>
                 </li>
                 <li>
-                    <Link to="/chats"><IoIosChatboxes size={30} color="#fd243e" /></Link>
+                    <Link to="/chats"><div className={`${styles.iconBtn} d-flex-center`}><IoIosChatboxes size={30} color="#fd243e" /></div></Link>
                 </li>
                 <li>
-                    <Link to="/channels"><MdGroups size={30} color="#fd243e" /></Link>
+                    <Link to="/channels"><div className={`${styles.iconBtn} d-flex-center`}><MdGroups size={30} color="#fd243e" /></div></Link>
                 </li>
                 <li>
-                    <Link to="/recently-deleted"><MdDelete size={30} color="#fd243e" /></Link>
+                    <Link to="/recently-deleted"><div className={`${styles.iconBtn} d-flex-center`}><MdDelete size={30} color="#fd243e" /></div></Link>
                 </li>
             </ul>
             <ProfileButton />
