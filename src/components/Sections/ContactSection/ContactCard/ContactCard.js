@@ -9,9 +9,30 @@ import styles from "./contactCard.module.css";
 const ContactCard = ({ contact, isPinned, togglePinnedStatus }) => {
     const userContext = useContext(UserContext);
 
+    const setChatMarkAsRead = () => {
+        if (contact.unreadCount === 0)
+            return;
+
+        const indexToUpdate = userContext.contactList.findIndex((contactDetails) => {
+            return contactDetails.userId === contact.userId
+        });
+
+        let updatedContactList = userContext.contactList.slice();
+        updatedContactList[indexToUpdate] = {
+            ...updatedContactList[indexToUpdate],
+            unreadCount: 0
+        };
+        userContext.setContactList(updatedContactList);
+    }
+
     return (
         <>
-            <div className={`${styles.contactCard} ${userContext.activeChatUserId === contact.userId ? styles.selected : ""}`} onClick={() => userContext.setActiveChatUserId(contact.userId)}>
+            <div
+                className={`${styles.contactCard} ${userContext.activeChatUserId === contact.userId ? styles.selected : ""}`}
+                onClick={() => {
+                    userContext.setActiveChatUserId(contact.userId);
+                    setChatMarkAsRead();
+                }}>
                 <div className="d-flex-center">
                     <ProfileImage src={contact.profilePictureUrl} />
                     <div className={styles.chatDetails}>
