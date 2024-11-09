@@ -5,9 +5,12 @@ import styles from "./profileModal.module.css";
 
 const ProfileModal = ({ name, src, onClose }) => {
     return (
-        <div className={styles.profileModal}>
-            <IoCloseCircle onClick={onClose} size={50} />
-            <img src={src ?? ""} alt={name ?? ""} />
+        <div className={styles.profileModal} onClick={onClose}>
+            <IoCloseCircle size={50} />
+            <div onClick={(e) => e.stopPropagation()}>
+                <img src={src ?? ""} alt={name ?? ""} />
+                <h2>{name}</h2>
+            </div>
         </div>
     )
 }

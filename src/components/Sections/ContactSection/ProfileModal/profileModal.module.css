@@ -8,15 +8,24 @@
     left: 0;
 }
 
-.profileModal img {
+.profileModal div {
     position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.profileModal h2 {
+    font-size: var(--font-size-xl);
+    font-weight: 400;
+}
+
+.profileModal img {
     object-fit: cover;
     border-radius: 350px;
     height: 350px;
     width: 350px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .profileModal svg {
