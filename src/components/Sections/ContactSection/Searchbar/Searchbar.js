@@ -1,10 +1,15 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { FiSearch } from "react-icons/fi";
-import styles from "./searchbar.module.css";
 import { UserContext } from "../../../../routes/ChatsRoute";
+import { getResponse } from "../../../../api/getResponse";
+import styles from "./searchbar.module.css";
 
 const Searchbar = () => {
     const userContext = useContext(UserContext);
+    // Maintaining allMessages variable to filter upon.
+    // Since updating existing contact list after filtering
+    // will not contain the whole array
+    const [allMessages, setAllMessages] = useState([]);
 
     const debounce = (callback, wait) => {
         let timeoutId = null;
@@ -18,10 +23,15 @@ const Searchbar = () => {
 
     // Debounce is added to ensure overloading doesn't happen
     const handleSearch = debounce((searchTerm) => {
-        alert("Search feature coming soon!");
-        // Feature can be added later
-        // Handle search
+        userContext.setContactList(allMessages.filter(contact => contact.name.toLowerCase().includes(searchTerm.trim())));
     }, 500);
+
+    useEffect(() => {
+        getResponse("dummyData/contactList.json")
+            .then(response => {
+                setAllMessages(response.data.contactList)
+            })
+    }, []);
 
     return (
         <div className={`${styles.searchbar} d-flex-center`}>
