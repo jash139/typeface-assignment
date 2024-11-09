@@ -45,7 +45,7 @@ npm start
 - <b>Search functionality:</b> User can search for a conversation using the searchbar. Debounce has been implemented in the searchbar to avoid overloading.
 - <b>Read messages:</b> When a user opens any conversation with new messages, it is marked as read.
 - <b>User Experience:</b> When a text is sent / received, on opening the conversation the message scroll immediately takes us to the latest message.
-- <b>Error handling:</b> 
+- <b>Error handling and code modularity:</b> 
 
 
 ## Deployment

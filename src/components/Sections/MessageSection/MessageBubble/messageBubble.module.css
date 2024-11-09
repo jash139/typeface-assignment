@@ -31,12 +31,33 @@
 .secondaryContainer {
     padding: 0.5rem;
     padding-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.primaryContainer:hover .deleteBtn,
+.secondaryContainer:hover .deleteBtn {
+    display: flex;
 }
 
 .primaryContainer img,
 .secondaryContainer img {
     height: 40px;
     width: 40px;
+}
+
+.deleteBtn {
+    color: rgb(var(--bg-torch-red));
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 0.25rem;
+    height: 30px;
+    width: 30px;
+    display: none;
+}
+
+.deleteBtn:hover {
+    background-color: rgb(var(--bg-grey));
 }
 
 .timestamp {
