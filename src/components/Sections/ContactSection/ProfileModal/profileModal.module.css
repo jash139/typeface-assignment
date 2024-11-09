@@ -30,7 +30,7 @@
 
 .profileModal svg {
     position: absolute;
-    right: 5rem;
-    top: 5rem;
+    right: 5%;
+    top: 5%;
     cursor: pointer;
 }

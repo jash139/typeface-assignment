@@ -1,3 +1,4 @@
 .outlinedBtn {
     border: 2px solid rgb(var(--bg-dark-grey));
+    color: rgb(var(--color-primary-black));
 }
