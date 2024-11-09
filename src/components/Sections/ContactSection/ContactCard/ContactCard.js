@@ -37,7 +37,7 @@ const ContactCard = ({ contact, isPinned, togglePinnedStatus }) => {
                     <ProfileImage src={contact.profilePictureUrl} />
                     <div className={styles.chatDetails}>
                         <h3 className={styles.chatUserName}>{contact.name}{userContext.currentUserData?.userId === contact.userId && " (You)"}</h3>
-                        <p className={styles.chatPreview}>{contact.preview}</p>
+                        <p className={styles.status}>"{contact.status}"</p>
                     </div>
                 </div>
                 <div className="d-flex-center">

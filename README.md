@@ -8,14 +8,13 @@
     <img src="./src/images/_" alt="Illustration" />
 </div>
 
-Typeface assignment developed using Reactjs.
+Typeface assignment developed using Reactjs. This is the frontend for a chat application developed using ReactJS. You can find the deployed website [here](https://tf-chat.netlify.app)
 
 # Table of contents
 
 * [Pre-requisites](#pre-requisites)
 * [Installation and Setup](#installation-and-setup)
 * [Features](#features)
-    * [Details](#details)
 * [Deployment](#deployment)
 
 ## Pre-requisites
@@ -46,6 +45,7 @@ npm start
 - <b>Search functionality:</b> User can search for a conversation using the searchbar. Debounce has been implemented in the searchbar to avoid overloading.
 - <b>Read messages:</b> When a user opens any conversation with new messages, it is marked as read.
 - <b>User Experience:</b> When a text is sent / received, on opening the conversation the message scroll immediately takes us to the latest message.
+- <b>Error handling:</b> 
 
 
 ## Deployment

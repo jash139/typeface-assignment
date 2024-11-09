@@ -22,13 +22,14 @@
 }
 
 .chatUserName,
-.chatPreview {
+.status {
     font-size: var(--font-size-md);
     margin: 0.25rem 0;
 }
 
-.chatPreview {
+.status {
     color: rgb(var(--color-text-secondary));
+    font-style: italic;
 }
 
 .timestamp {

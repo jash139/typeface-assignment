@@ -5,15 +5,16 @@ import ProfileImage from "../../../commons/ProfileImage/ProfileImage";
 import ProfileModal from "../../ContactSection/ProfileModal/ProfileModal";
 import { UserContext } from "../../../../routes/ChatsRoute";
 import { getResponse } from "../../../../api/getResponse";
-import styles from "./header.module.css";
 import ConfirmationModal from "../../../commons/ConfirmationModal/ConfirmationModal";
+import styles from "./header.module.css";
 
 const Header = () => {
     const userContext = useContext(UserContext);
     const [userDetails, setUserDetails] = useState({
         userId: "",
         name: "",
-        profilePictureUrl: ""
+        profilePictureUrl: "",
+        status: ""
     });
     const [showProfileModal, setShowProfileModal] = useState(false);
     const [showConfirmationModal, setShowConfirmationModal] = useState(false);
@@ -52,7 +53,10 @@ const Header = () => {
                 <div className={styles.profileButton} onClick={toggleProfileModal}>
                     <ProfileImage src={userDetails?.profilePictureUrl} />
                 </div>
-                <div className={styles.userDetails}><h3>{userDetails?.name}{userContext.currentUserData?.userId === userDetails.userId && " (You)"}</h3><p className={styles.status}>Online</p></div>
+                <div className={styles.userDetails}>
+                    <h3>{userDetails?.name}{userContext.currentUserData?.userId === userDetails.userId && " (You)"}</h3>
+                    <p className={styles.status}>"{userDetails.status}"</p>
+                </div>
                 <div className={styles.actionBtns}>
                     <OutlinedBtn text="View Profile" onClick={toggleProfileModal} />
                     <div className={styles.separation} />

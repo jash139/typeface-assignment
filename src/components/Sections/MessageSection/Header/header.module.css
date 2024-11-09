@@ -18,8 +18,8 @@
 }
 
 .userDetails p {
-    color: rgb(var(--bg-green));
-    font-weight: 500;
+    color: rgb(var(--color-text-secondary));
+    font-style: italic;
 }
 
 .separation {

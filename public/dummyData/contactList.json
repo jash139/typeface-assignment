@@ -4,7 +4,7 @@
             "userId": "1",
             "name": "Ayush Acharya",
             "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "Create chat application for assignment.",
+            "status": "Online",
             "unreadCount": 2,
             "timestamp": "11:11 AM",
             "pinned": true
@@ -13,7 +13,7 @@
             "userId": "2",
             "name": "Colleague 1",
             "profilePictureUrl": "https://images.unsplash.com/photo-1536922645426-5d658ab49b81?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "Just got a new Ferrari!",
+            "status": "Just got a new Ferrari!",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": true
@@ -22,7 +22,7 @@
             "userId": "3",
             "name": "Employee ",
             "profilePictureUrl": "https://images.unsplash.com/photo-1552622594-4df0b4182152?q=80&w=1976&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "On the way to Tokyo.",
+            "status": "On the way to Tokyo.",
             "unreadCount": 1,
             "timestamp": "11:11 AM",
             "pinned": false
@@ -31,7 +31,7 @@
             "userId": "4",
             "name": "Typeface user",
             "profilePictureUrl": "https://images.unsplash.com/photo-1562693318-bbe9fe9d6f02?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "Got late...",
+            "status": "Got late...",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": false
@@ -40,7 +40,7 @@
             "userId": "5",
             "name": "5",
             "profilePictureUrl": "https://images.unsplash.com/photo-1457332253637-21d324d25df9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-            "preview": "Create chat application assignment!",
+            "status": "Create chat application assignment!",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": true
@@ -49,7 +49,7 @@
             "userId": "6",
             "name": "6",
             "profilePictureUrl": "",
-            "preview": "Create chat application assignment!",
+            "status": "Create chat application assignment!",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": false
@@ -58,7 +58,7 @@
             "userId": "7",
             "name": "7",
             "profilePictureUrl": "",
-            "preview": "Create chat application assignment!",
+            "status": "Create chat application assignment!",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": false
@@ -67,7 +67,7 @@
             "userId": "8",
             "name": "8",
             "profilePictureUrl": "",
-            "preview": "Create chat application assignment!",
+            "status": "Create chat application assignment!",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": false
@@ -76,7 +76,7 @@
             "userId": "9",
             "name": "9",
             "profilePictureUrl": "",
-            "preview": "Create chat application assignment!",
+            "status": "Create chat application assignment!",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": false
@@ -85,7 +85,7 @@
             "userId": "10",
             "name": "10",
             "profilePictureUrl": "",
-            "preview": "Create chat application assignment!",
+            "status": "Create chat application assignment!",
             "unreadCount": 0,
             "timestamp": "11:11 AM",
             "pinned": false
