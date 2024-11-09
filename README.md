@@ -5,7 +5,7 @@
 </h2>
 
 <div align="center">
-    <img src="./src/images/_" alt="Illustration" />
+    <img src="./public/illustration.png" alt="Illustration" />
 </div>
 
 Typeface assignment developed using Reactjs. This is the frontend for a chat application developed using ReactJS. You can find the deployed website [here](https://tf-chat.netlify.app)
