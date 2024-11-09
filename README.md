@@ -39,14 +39,13 @@ npm start
 
 - <b>Create one or more chats:</b> User can start new conversation from the contact list or continue an existing conversation.
 - <b>Send, receive, and display messages:</b> User can send, receive and display text messages. The message object contains content, sender id, receiver id, content and timestamp.
-- <b>Delete a chat:</b> User can delete a conversation. A confirmation  modal is shown before deletion happens.
-- <b>Profile:</b> User can view the profile details of any contact as well as own profile.
+- <b>Delete a chat / message:</b> User can delete the whole conversation or a particular message. A confirmation modal is shown before deletion happens for a conversation. On hovering over a message, delete message button is shown.
+- <b>Profile:</b> User can view the profile details of any contact as well as one's own profile.
 - <b>Pinned conversations:</b> User has the option to pin important conversations to the top.
-- <b>Search functionality:</b> User can search for a conversation using the searchbar. Debounce has been implemented in the searchbar to avoid overloading.
+- <b>Search functionality:</b> User can search for a conversation using the search bar. Debounce has been implemented in the search bar to avoid overloading.
 - <b>Read messages:</b> When a user opens any conversation with new messages, it is marked as read.
 - <b>User Experience:</b> When a text is sent / received, on opening the conversation the message scroll immediately takes us to the latest message.
-- <b>Error handling and code modularity:</b> 
-
+- <b>Error handling and code modularity:</b>The codebase has been organized with proper file structure for assets, components, pages, routes, utils. The styling for each component is kept under `_fileName_.module.css` with css variables. Comments and error handling have been added where required.
 
 ## Deployment
 Run build command with publish directory as `build`.
