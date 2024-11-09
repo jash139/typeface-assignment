@@ -16,9 +16,6 @@ const Sidebar = () => {
             </Link>
             <ul>
                 <li>
-                    <Link to="/"><div className={`${styles.iconBtn} d-flex-center`}><FaHome size={30} color="#fd243e" /></div></Link>
-                </li>
-                <li>
                     <Link to="/chats"><div className={`${styles.iconBtn} d-flex-center`}><IoIosChatboxes size={30} color="#fd243e" /></div></Link>
                 </li>
                 <li>

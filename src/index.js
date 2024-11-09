@@ -10,6 +10,7 @@ import Root from "./routes/root";
 import ErrorPage from "./pages/ErrorPage";
 import ChatsRoute from "./routes/ChatsRoute";
 import ChannelRoute from "./routes/ChannelRoute";
+import RecentlyDeletedRoute from "./routes/RecentlyDeletedRoute";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
         path: "/channels",
         element: <ChannelRoute />
       },
+      {
+        path: "/recently-deleted",
+        element: <RecentlyDeletedRoute />
+      }
     ]
   }
 ],

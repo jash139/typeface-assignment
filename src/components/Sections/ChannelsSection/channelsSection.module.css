@@ -1,0 +1,6 @@
+.channelsSection {
+    flex: 8;
+    padding: 1rem;
+    text-align: center;
+    color: rgb(var(--color-torch-red));
+}

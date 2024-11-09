@@ -22,6 +22,9 @@ const Header = () => {
         if (window.confirm(`Are you sure you want to delete all chat with ${userDetails.name}?`) === false)
             return;
 
+        // This alert should be displayed only after success of backend API
+        // keeping here as backend isn't implemented
+        alert(`Chats with ${userDetails.name} deleted and moved to deleted chats tab. (Feature coming soon!)`);
         userContext.setActiveChatUserId("");
         userContext.setContactList(userContext.contactList.filter(contact => contact.userId !== userDetails.userId))
     };

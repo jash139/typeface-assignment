@@ -1,8 +1,9 @@
 import React from "react";
+import ChannelsSection from "../components/Sections/ChannelsSection/ChannelsSection";
 
 const ChannelRoute = () => {
     return (
-        <h1>Channels</h1>
+        <ChannelsSection />
     );
 }
 
