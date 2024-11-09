@@ -1,5 +1,5 @@
 .messages {
     overflow-y: auto;
-    height: calc(100% - 120px - var(--card-margin-y) * 5);
+    height: calc(100% - 120px - var(--card-margin-y) * 4);
     padding: 1rem;
 }
