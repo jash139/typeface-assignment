@@ -8,7 +8,7 @@ const MessageBox = () => {
     const userContext = useContext(UserContext);
     const [messageToSend, setMessageToSend] = useState("");
     const handleSendMessage = () => {
-        if (messageToSend.length == 0)
+        if (messageToSend.length === 0)
             alert("Can't send empty text!");
 
         const payload = {

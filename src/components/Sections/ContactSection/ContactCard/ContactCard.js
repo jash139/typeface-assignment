@@ -7,15 +7,15 @@ import { TbPinned, TbPinnedFilled } from "react-icons/tb";
 import styles from "./contactCard.module.css";
 
 const ContactCard = ({ contact, isPinned, togglePinnedStatus }) => {
-    const user = useContext(UserContext);
+    const userContext = useContext(UserContext);
 
     return (
         <>
-            <div className={`${styles.contactCard} ${user.activeChatUserId === contact.userId ? styles.selected : ""}`} onClick={() => user.setActiveChatUserId(contact.userId)}>
+            <div className={`${styles.contactCard} ${userContext.activeChatUserId === contact.userId ? styles.selected : ""}`} onClick={() => userContext.setActiveChatUserId(contact.userId)}>
                 <div className="d-flex-center">
                     <ProfileImage src={contact.profilePictureUrl} />
                     <div className={styles.chatDetails}>
-                        <h3 className={styles.chatUserName}>{contact.name}</h3>
+                        <h3 className={styles.chatUserName}>{contact.name}{userContext.currentUserData?.userId === contact.userId && " (You)"}</h3>
                         <p className={styles.chatPreview}>{contact.preview}</p>
                     </div>
                 </div>

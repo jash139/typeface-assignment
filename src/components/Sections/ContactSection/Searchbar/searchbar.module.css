@@ -1,0 +1,14 @@
+.searchbar {
+    border: 2px solid rgb(var(--bg-dark-grey));
+    border-radius: 5rem;
+    padding-right: 0.5rem;
+    margin-left: auto;
+}
+
+.searchbar input {
+    font-size: var(--font-size-md);
+    border-radius: 5rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}

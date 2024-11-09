@@ -28,7 +28,7 @@ const Messages = () => {
                 filterMessagesForCurrentChat(userContext.messages).map(message =>
                     <MessageBubble
                         key={message.id}
-                        isPrimary={message.senderId == userContext.currentUserData?.userId}
+                        isPrimary={message.senderId === userContext.currentUserData?.userId}
                         message={message}
                     />
                 )

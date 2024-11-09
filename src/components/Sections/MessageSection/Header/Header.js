@@ -46,7 +46,7 @@ const Header = () => {
                 <div className={styles.profileButton} onClick={toggleModal}>
                     <ProfileImage src={userDetails?.profilePictureUrl} />
                 </div>
-                <div className={styles.userDetails}><h3>{userDetails?.name}</h3><p className={styles.status}>Online</p></div>
+                <div className={styles.userDetails}><h3>{userDetails?.name}{userContext.currentUserData?.userId === userDetails.userId && " (You)"}</h3><p className={styles.status}>Online</p></div>
                 <div className={styles.actionBtns}>
                     <OutlinedBtn text="View Profile" onClick={toggleModal} />
                     <div className={styles.separation} />

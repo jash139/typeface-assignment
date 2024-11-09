@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import ContactSection from "../components/Sections/ContactSection/ContactSection";
 import MessageSection from "../components/Sections/MessageSection/MessageSection";
 import { getResponse } from "../api/getResponse";
-import ChatSvg from "../components/ChatSvg/ChatSvg";
+import SelectContactMsg from "../components/SelectContactMsg/SelectContactMsg";
 
 export const UserContext = React.createContext();
 
 const ChatsRoute = () => {
-    const [activeChatUserId, setActiveChatUserId] = useState("1");
+    const [activeChatUserId, setActiveChatUserId] = useState("");
     const [currentUserData, setCurrentUserData] = useState({});
     const [messages, setMessages] = useState([]);
     const [contactList, setContactList] = useState([]);
@@ -48,7 +48,7 @@ const ChatsRoute = () => {
         >
             <ContactSection />
             {
-                activeChatUserId !== "" ? <MessageSection /> : <ChatSvg />
+                activeChatUserId !== "" ? <MessageSection /> : <SelectContactMsg />
             }
         </UserContext.Provider>
     )

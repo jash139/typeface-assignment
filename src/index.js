@@ -30,9 +30,19 @@ const router = createBrowserRouter([
         element: <ChannelRoute />
       },
     ]
-  },
-
-]);
+  }
+],
+  {
+    future: {
+      // To disable warnings by react router
+      v7_fetcherPersist: true,
+      v7_normalizeFormMethod: true,
+      v7_partialHydration: true,
+      v7_relativeSplatPath: true,
+      v7_skipActionErrorRevalidation: true,
+    },
+  }
+);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

@@ -1,0 +1,23 @@
+.selectContactMsg {
+    flex: 5;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.selectContactMsg svg {
+    width: 65%;
+}
+
+.selectContactMsg h2 {
+    color: rgb(var(--color-primmary-black));
+}
+
+@media only screen and (max-width: 960px) {
+    .selectContactMsg svg {
+        height: 250px;
+        width: 280px;
+    }
+}
